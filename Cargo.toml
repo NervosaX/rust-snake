@@ -1,0 +1,9 @@
+[package]
+name = "gg-snake"
+version = "0.1.0"
+authors = ["Adam Hoddinott <adam.hoddinott@salespreso.com>"]
+
+[dependencies]
+ggez = "0.4"
+sdl2 = "0.30"
+rand = "0.4"

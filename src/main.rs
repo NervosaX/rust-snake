@@ -96,7 +96,7 @@ pub fn main() {
     // Hack for multi monitor lol
     if display_count > 1 {
         let video: VideoSubsystem = ctx.sdl_context.video().unwrap();
-        let bounds = video.display_bounds(2).unwrap();
+        let bounds = video.display_bounds(display_count - 1).unwrap();
 
         {
             let window = graphics::get_window_mut(ctx);
